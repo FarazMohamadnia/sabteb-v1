@@ -7,7 +7,57 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.company-name-style{
+  background: -webkit-linear-gradient( right ,rgb(0, 35, 176),#002e32, #430000 ,rgb(175, 0, 0) );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ---- FONTS -------- */
+.font-lalehar{
+  font-family: 'Lalehzar';
+  font-weight: bold;
+}
+
+.font-Maktab{
+  font-family: 'Maktab';
+}
+
+.font-Casablanca{
+  font-family: 'Casablanca';
+  font-weight: bold;
+}
+
+/* ---- FONTS CONFIG -------- */
+
+@font-face {
+  font-family: 'Lalehzar';
+  src: url('./assets/fonts/Lalezar-Font/TTF/Lalezar-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Maktab';
+  src: url('./assets/fonts/Maktab/MaktabRita-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Casablanca';
+  src: url('./assets/fonts/Far_Casablanca/Far_Casablanca.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
 }

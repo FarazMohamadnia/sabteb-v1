@@ -1,0 +1,98 @@
+.linksection-body-style{
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: url('../../../assets/img/linksectionImage/blob-scene-haikei.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 8px 8px 1px rgb(0, 0, 0) ,0px -4px 6px 1px rgb(0, 0, 0) ;
+}
+
+.linkSection-box{
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to top right , black , rgba(207, 1, 1, 0.911) , black);
+    margin: 3px;
+    border-radius: 30px;
+    padding:3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    @media (min-width : 300px) {
+        width: 120px;
+        height: 120px;
+        margin: 8px;
+    }
+    @media (min-width : 767px) {
+        width:200px;
+        height: 200px;
+        margin: 12px;
+    }
+}
+
+.linkSection-box p{
+    margin: 0px;
+    font-size: 11px;
+    color: white;
+    @media (min-width : 300px) {
+        font-size: 14px;
+    }
+    @media (min-width : 767px) {
+        font-size: 20px;
+    }
+}
+
+.linkSection-box:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    color: rgb(224, 224, 224);
+}
+
+.dropdown-linksection-body-style{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+
+.linkSection-description-icon{
+    cursor: pointer;
+    font-size: 2rem;
+    transition: 0.7s;
+}
+.linkSection-description-icon:hover{
+    transform: rotate(135deg);
+    color: rgb(163, 163, 163);
+    transition: 0.7s;
+}
+
+.linkSection-container-style{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+}
+
+.linkSection-container-style a{
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    @media (min-width:767px) {
+        width: 45%;
+    }
+    @media (min-width:900px) {
+        width: 23%;
+    }
+}

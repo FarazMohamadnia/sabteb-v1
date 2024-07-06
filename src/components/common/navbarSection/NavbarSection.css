@@ -1,0 +1,32 @@
+.nav-section-body{
+    width: 100%;
+    background: linear-gradient(to top right ,gray, rgba(31, 38, 135, 0.5) , rgb(226, 225, 225) );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.company-name-nav-style{
+    background: -webkit-linear-gradient( right ,rgb(0, 35, 176),#002e32, #430000 ,rgb(175, 0, 0) );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-img-section-style{
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 2px white;
+}
+
+.nav-section-body a{
+    text-decoration: none;
+    color: black;
+}
+.nav-section-dropdown{
+    background-color: rgba(233, 233, 233, 0.881);
+}
+.nav-section-dropdown a{
+    text-decoration: none;
+    color: black;
+
+}
