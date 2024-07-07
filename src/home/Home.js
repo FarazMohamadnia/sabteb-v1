@@ -6,6 +6,8 @@ import Body1 from '../components/layout/Body1Section/body1section'
 import FullDescriptionSection from '../components/layout/fulldescription/fullDescription'
 import Socialmediabuttn from '../components/common/socialMediaButton/socialmediabutton'
 import DescriptionSection2 from '../components/layout/Description2/des2'
+import ContactUs from '../components/layout/ContactUs/Contactus'
+import FooterSection from '../components/layout/footer/footer'
 
 export default function HomePage(){
     return(
@@ -30,6 +32,12 @@ export default function HomePage(){
             </div>
             <div>
                 <DescriptionSection2 />
+            </div>
+            <div>
+                <ContactUs />
+            </div>
+            <div>
+                <FooterSection />
             </div>
         </div>
     )

@@ -1,0 +1,7 @@
+.footer-background-body{
+    background: linear-gradient(to bottom , rgb(33, 37, 41), rgb(24, 35, 80));
+}
+.footerSection-body-style a{
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
