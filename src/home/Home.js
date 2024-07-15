@@ -8,6 +8,8 @@ import Socialmediabuttn from '../components/common/socialMediaButton/socialmedia
 import DescriptionSection2 from '../components/layout/Description2/des2'
 import ContactUs from '../components/layout/ContactUs/Contactus'
 import FooterSection from '../components/layout/footer/footer'
+import TopContactUs from '../components/layout/topContactUs/topcontactus'
+import ContactButton from '../components/common/contactBtn/contactButton'
 
 export default function HomePage(){
     return(
@@ -34,10 +36,16 @@ export default function HomePage(){
                 <DescriptionSection2 />
             </div>
             <div>
+                <TopContactUs />
+            </div>
+            <div>
                 <ContactUs />
             </div>
             <div>
                 <FooterSection />
+            </div>
+            <div>
+                <ContactButton />
             </div>
         </div>
     )

@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import './socialmediabutton.css'
 import { SiPluscodes } from "react-icons/si";
-import { FaWhatsapp, FaInstagram ,FaTelegramPlane ,FaPhoneAlt} from "react-icons/fa";
+import { FaWhatsapp, FaInstagram ,FaTelegramPlane } from "react-icons/fa";
+import { MdSupportAgent } from "react-icons/md";
+
 import robikaIcon from '../../../assets/img/icons/robikaIcon/logo-Rubika-app-download-png-vector-Toranjlogo (2).png'
 import {Link} from 'react-router-dom'
 export default function Socialmediabuttn(){
@@ -21,7 +23,7 @@ export default function Socialmediabuttn(){
                 <Link><FaWhatsapp color='green' size={'1.95rem'}/></Link> <Link><FaInstagram color='pink' size={'1.95rem'}/></Link> <Link><FaTelegramPlane color='blue' size={'1.95rem'}/></Link> <Link><img style={{width:'1.95rem'}} src={robikaIcon}/></Link>
             </div>
             <div onClick={openModalHandller} className='w-100 h-100 d-flex justify-content-center align-items-center'>
-                <SiPluscodes size={'1.8rem'}/>
+                <MdSupportAgent size={'2.3rem'}/>
             </div>
         </div>
     </div>

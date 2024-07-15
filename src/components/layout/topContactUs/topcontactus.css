@@ -1,0 +1,17 @@
+.TopContactUs-body-style{
+    height: 10rem;
+    padding: 10px;
+    width: 100%;
+	line-height: 50px;
+	background-color: red;
+	color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+	display:flex;
+    justify-content: center;
+	align-items: center;
+    overflow-x: scroll;
+}
+
+

@@ -1,5 +1,5 @@
 .header-body-section-background {
-	background: linear-gradient(-45deg, rgb(218, 0, 80), rgb(174, 0, 104), rgb(122, 22, 113),rgb(24, 35, 80) , rgb(0, 19, 32));
+	background: linear-gradient(-45deg, rgb(19, 19, 19), rgb(73, 73, 73), rgb(201, 201, 201), rgb(11, 33, 121) ,rgb(24, 35, 80) , rgb(0, 19, 32));
 	background-size: 400% 400%;
 	animation: gradient 12s ease infinite;
 	height: 40rem;

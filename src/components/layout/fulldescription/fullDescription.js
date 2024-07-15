@@ -1,5 +1,5 @@
 import './fullDescription.css'
-import img from '../../../assets/img/test/pixlr-image-generator-66b1a575-c32a-4ab7-8257-06a0fa1899fd.png'
+import img from '../../../assets/img/icons/logoIcon/logo.jpg'
 export default function FullDescriptionSection(){
     return(
         <div className='fullDescription-body-style'>
