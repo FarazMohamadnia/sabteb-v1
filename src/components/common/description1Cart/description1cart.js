@@ -1,5 +1,4 @@
 import './description1cart.css'
-import img from '../../../assets/img/linksectionImage/blob-scene-haikei.png'
 export default function Description1Cart({title , text}){
     return(
         <div className="des1-card-style">

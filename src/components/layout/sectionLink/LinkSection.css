@@ -4,8 +4,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    background: url('../../../assets/img/linksectionImage/blob-scene-haikei.png');
-    background-position: center;
+    background: url('../../../assets/img/linksectionImage/layered-waves-haikei\ \(1\).png');
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     border-top: 1px solid black;
@@ -80,6 +80,8 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: rgb(31, 31, 31);
+    max-height: 83vh;
+    overflow-y: scroll;
 }
 
 .linkSection-container-style a{

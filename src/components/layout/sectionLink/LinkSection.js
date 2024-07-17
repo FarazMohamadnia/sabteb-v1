@@ -25,7 +25,7 @@ export default function LinkSectionComponent(){
     return(
         <>
             <div className='linksection-body-style'>
-                <h3 className='text-light'>خدمات ما</h3>
+                <h3 className='text-dark'>خدمات ما</h3>
                 <div className='d-flex flex-wrap justify-content-center'>
                     <div onClick={getId} id={1} className='linkSection-box'>
                         <p id={1}>ثبت شرکت <FaBusinessTime id={1} /></p>

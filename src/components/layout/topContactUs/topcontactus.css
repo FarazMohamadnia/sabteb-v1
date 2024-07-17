@@ -9,9 +9,20 @@
     overflow: hidden;
     box-sizing: border-box;
 	display:flex;
-    justify-content: center;
 	align-items: center;
+    justify-content: end;
     overflow-x: scroll;
+}
+
+.marquee {
+    display: flex;
+    animation: marquee 40s linear infinite;
+}
+
+
+@keyframes marquee {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
 }
 
 
