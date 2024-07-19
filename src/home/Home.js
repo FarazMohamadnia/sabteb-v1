@@ -10,6 +10,7 @@ import ContactUs from '../components/layout/ContactUs/Contactus'
 import FooterSection from '../components/layout/footer/footer'
 import TopContactUs from '../components/layout/topContactUs/topcontactus'
 import ContactButton from '../components/common/contactBtn/contactButton'
+import RegisteredBrandAndCountingSection from '../components/layout/RegisteredBrandAndCountingSection/RegisteredBrandAndCountingSection'
 
 export default function HomePage(){
     return(
@@ -34,6 +35,9 @@ export default function HomePage(){
             </div>
             <div>
                 <DescriptionSection2 />
+            </div>
+            <div>
+                <RegisteredBrandAndCountingSection />
             </div>
             <div>
                 <TopContactUs />
