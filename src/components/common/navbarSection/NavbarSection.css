@@ -1,6 +1,6 @@
 .nav-section-body{
     width: 100%;
-    background: linear-gradient(to top right ,gray, rgba(31, 38, 135, 0.5) , rgb(226, 225, 225) );
+    background: linear-gradient(to top right ,gray, #710b047f , rgb(226, 225, 225) );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }

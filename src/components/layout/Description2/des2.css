@@ -1,17 +1,17 @@
 .DescriptionSection2-body-style{
-    background: linear-gradient(to top left, rgb(0, 18, 32), rgb(24, 35, 80));
-    color: white;
+    background: linear-gradient(to top ,gray, rgb(250, 250, 250), silver);
+    color: rgb(0, 0, 0);
     padding: 15px;
 }
 
 .DescriptionSection2-box-style{
     width: 100%;
-    background-color: rgba(21, 21, 21, 0.949);
+    background-color: rgba(234, 234, 234, 0.949);
     text-align: center;
     padding: 5px;
     border: 1px solid white;
     border-radius: 25px 15px ;
-    box-shadow: 0px 0px 5px 1px white;
+    box-shadow: 0px 0px 5px 1px rgb(0, 0, 0);
     min-height: 200px;
     max-height: 300px;
     overflow-y: scroll;
@@ -19,7 +19,6 @@
 
 .DescriptionSection2-section1-style{
     text-align: center;
-
 }
 
 .DescriptionSection2-section1-style img{
@@ -27,7 +26,7 @@
     max-width: 300px;
     width: 100%;
     border-radius: 30px;
-    box-shadow: 0px 0px 7px 4px white;
+    box-shadow: 0px 0px 7px 4px rgb(0, 0, 0);
     margin: 2px;
 
 }

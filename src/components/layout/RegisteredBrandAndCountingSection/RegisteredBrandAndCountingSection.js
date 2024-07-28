@@ -25,7 +25,7 @@ export default function RegisteredBrandAndCountingSection(){
         <div className="d-md-flex RegisteredBrandAndCountingSection-container-style">
             <Col className="RegisteredBrandAndCountingSection-brandsection-style" md={6}>
                 <div className="m-1">
-                    <p className="fs-4 ps-4 my-3 border-start text-light">شرکت ها و برند های ثبت شده </p>
+                    <p className="fs-4 ps-4 my-3 border-start text-dark">شرکت ها و برند های ثبت شده </p>
                 </div>
                 <div className=" d-flex flex-wrap justify-content-center">
                     <RegisteredBrand />

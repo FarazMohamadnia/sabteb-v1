@@ -1,10 +1,10 @@
 .header-body-section-background {
-	background: linear-gradient(-45deg, rgb(19, 19, 19), rgb(73, 73, 73), rgb(201, 201, 201), rgb(11, 33, 121) ,rgb(24, 35, 80) , rgb(0, 19, 32));
+	background: linear-gradient(-45deg, white, #c5c6d0,#373737, #7a1712 ,#710c04 , red);
 	background-size: 400% 400%;
-	animation: gradient 12s ease infinite;
+	animation: gradient 15s ease infinite;
 	height: 40rem;
     display: flex;
-	color: white;
+	color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
     @media (max-width : 500px) {

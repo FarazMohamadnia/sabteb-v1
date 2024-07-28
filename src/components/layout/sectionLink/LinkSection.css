@@ -4,7 +4,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    background: url('../../../assets/img/linksectionImage/layered-waves-haikei\ \(1\).png');
+    background: url('../../../assets/img/linksectionImage/layered-waves-haikei\ \(2\).png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,7 +17,7 @@
     cursor: pointer;
     width: 80px;
     height: 80px;
-    background: linear-gradient(to top right , black , rgba(207, 1, 1, 0.911) , black);
+    background: linear-gradient(to top right , rgb(0, 0, 0) , #910a00 , black);
     margin: 3px;
     border-radius: 30px;
     padding:3px;
