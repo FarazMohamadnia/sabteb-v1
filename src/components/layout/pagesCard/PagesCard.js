@@ -79,7 +79,7 @@ export default function PagesCard(Data){
                     </Col>
                 </div>
                 <div className='text-start'>
-                    <p className='fs-3'>توضیحات</p>
+                    {/* <p className='fs-3'>توضیحات</p> */}
                         <div>
                         {
                             data.endDescription.map(data => (

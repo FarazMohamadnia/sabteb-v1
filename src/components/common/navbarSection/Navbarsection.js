@@ -31,43 +31,43 @@ export default function NavSection(){
                 <NavDropdown
                     title="خدمات تخصصی ثبت شرکت"
                   >
-                    <NavDropdown.Item ><Link to='/ddd'>۱- ثبت شرکت مسئولیت محدود</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۲- ثبت شرکت سهامی خاص</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۳-ثبت موسسه غیر تجاری</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۴- ثبت شرکت تضامنی</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۵- ثبت شرکت تعاونی</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۶- ثبت شرکت سهامی عام</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۷- ثبت شرکت در مناطق آزاد</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۸- ثبت و تنظیم صورتجلسات شرکتها</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/ثبت-شرکت-مسئولیت-محدود'>۱- ثبت شرکت مسئولیت محدود</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/ثبت-شرکت-سهامی-خاص'>۲- ثبت شرکت سهامی خاص</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/ثبت-موسسه-غیر-تجاری'>۳-ثبت موسسه غیر تجاری</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/ثبت-شرکت-تضامنی'>۴- ثبت شرکت تضامنی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/ثبت-شرکت-تعاونی'>۵- ثبت شرکت تعاونی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/ثبت-شرکت-سهامی-عام'>۶- ثبت شرکت سهامی عام</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/ثبت-شرکت-مناطق-آزاد'>۷- ثبت شرکت در مناطق آزاد</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/company/تنظیم-صورتجلسات-شرکتها'>۸- ثبت و تنظیم صورتجلسات شرکتها</Link></NavDropdown.Item>
 
                 </NavDropdown>
                 <NavDropdown
                     title="خدمات تخصصی مالکیت صنعتی و معنوی"
                   >
-                    <NavDropdown.Item ><Link to=''>۱- ثبت برند</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۲- ثبت طرح صنعتی</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۳- ثبت اختراع</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/brand/ثبت-برند'>۱- ثبت برند</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/brand/ثبت-طرح-صنعتی'>۲- ثبت طرح صنعتی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/brand/ثبت-اختراع'>۳- ثبت اختراع</Link></NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                     title="خدمات تخصصی مالی و مالیاتی"
                   >
-                    <NavDropdown.Item ><Link to=''>۱- اخذ کد اقتصادی</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۲- اخذ گواهی ارزش افزوده</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۳- اخذ دفاتر پلمب مالی</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۴- مشاور مالی و مالیاتی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/financial-services/اخذ-کد-اقتصادی'>۱- اخذ کد اقتصادی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/financial-services/اخذ-گواهی-ارزش-افزوده'>۲- اخذ گواهی ارزش افزوده</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/financial-services/اخذ-دفاتر-پلمپ-مالی'>۳- اخذ دفاتر پلمب مالی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/financial-services/مشاوره-مالی-و-مالیاتی'>۴- مشاور مالی و مالیاتی</Link></NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                     title="خدمات تخصصی بازرگانی"
                   >
-                    <NavDropdown.Item ><Link to=''>۱- اخذ کارت بازرگانی حقیقی</Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>۲- اخذ کارت بازرگانی حقوقی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/commerce/اخذ-کارت-بازرگانی-حقیقی'>۱- اخذ کارت بازرگانی حقیقی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/commerce/اخذ-کارت-بازرگانی-حقوقی'>۲- اخذ کارت بازرگانی حقوقی</Link></NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown
                     title="خدمات ویژه"
                   >
-                    <NavDropdown.Item ><Link to=''>طراحی سایت </Link></NavDropdown.Item>
-                    <NavDropdown.Item ><Link to=''>طراحی لوگو </Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/special-services/طراحی-سایت'>طراحی سایت </Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/special-services/طراحی-لوگو'>طراحی لوگو </Link></NavDropdown.Item>
                 </NavDropdown>
                 </Nav>
               </Offcanvas.Body>

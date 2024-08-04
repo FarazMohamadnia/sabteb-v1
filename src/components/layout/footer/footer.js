@@ -7,7 +7,8 @@ import { FaMoneyBillTrendUp } from "react-icons/fa6";
 import { BsBoxSeamFill } from "react-icons/bs";
 import { MdStars } from "react-icons/md";
 import { IoShareSocialSharp } from "react-icons/io5";
-
+import logonama from '../../../assets/img/footerImag/logonama.png'
+import EnamadIcon from '../../../assets/img/footerImag/enamad_icon_text_color_blue_1024-768x768.png'
 
 export default function FooterSection(){
     return(
@@ -55,8 +56,13 @@ export default function FooterSection(){
                     <p><Link to=''>۳-اینستاگرام</Link></p>
                 </Col>
             </div>
-            <div>
-                e namad
+            <div className='d-flex pb-5 footer-icons-section-style'>
+                <div>
+                    <a><img src={logonama}/></a>
+                </div>
+                <div>
+                    <a><img src={EnamadIcon}/></a>
+                </div>
             </div>
         </div>
     )
