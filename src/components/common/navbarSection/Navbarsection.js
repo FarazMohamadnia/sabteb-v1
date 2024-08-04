@@ -49,11 +49,12 @@ export default function NavSection(){
                     <NavDropdown.Item ><Link to=''>۳- ثبت اختراع</Link></NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
-                    title="خدمات تخصصی مالی"
+                    title="خدمات تخصصی مالی و مالیاتی"
                   >
                     <NavDropdown.Item ><Link to=''>۱- اخذ کد اقتصادی</Link></NavDropdown.Item>
                     <NavDropdown.Item ><Link to=''>۲- اخذ گواهی ارزش افزوده</Link></NavDropdown.Item>
                     <NavDropdown.Item ><Link to=''>۳- اخذ دفاتر پلمب مالی</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to=''>۴- مشاور مالی و مالیاتی</Link></NavDropdown.Item>
                 </NavDropdown>
                 <NavDropdown
                     title="خدمات تخصصی بازرگانی"

@@ -20,18 +20,18 @@ export default function CountSection(){
     });
     return(
         <div ref={ref} className='countingSection-container'>
-            <p className='fs-4 ps-4 my-3 border-start text-light'>
+            <p className='fs-4 ps-4 mb-3 ms-2 border-start text-dark'>
                 چرا تیم ما ؟
             </p>
             <div className='countingSection-container-style'>
                 <div className='countingSection-body-style'>
                     <p><MdCalendarMonth />-سال سابقه :  </p><p className='countingSection-body-style-counting'>
-                        {startCount && <CountUp delay={1} end={1500} duration={7} />}
+                        {startCount && <CountUp delay={1.8} end={12} duration={7} />}
                     </p>
                 </div>
                 <div className='countingSection-body-style'>
                     <p><IoPeopleCircleOutline />-تعداد مشتری ها :</p><p className='countingSection-body-style-counting'>
-                        {startCount && <CountUp delay={1.3} end={1000} duration={7} />}
+                        {startCount && <CountUp delay={1.3} end={219} duration={7} />}
                     </p>
                 </div>
                 <div className='countingSection-body-style'>
@@ -39,13 +39,12 @@ export default function CountSection(){
                         -شرکت های ثبت شده : 
                         </p>
                         <p className='countingSection-body-style-counting'>
-                        {startCount && <CountUp delay={1.6} end={500} duration={7} />}
+                        {startCount && <CountUp delay={1.6} end={73} duration={7} />}
                     </p>
                 </div>
                 <div className='countingSection-body-style'>
-                    <p><BsBookmarkCheckFill />
--برند های ثبت شده : </p><p className='countingSection-body-style-counting'>
-                        {startCount && <CountUp delay={1.9} end={1340} duration={7} />}
+                    <p><BsBookmarkCheckFill /> -برند های ثبت شده : </p><p className='countingSection-body-style-counting'>
+                        {startCount && <CountUp delay={2} end={36} duration={7} />}
                     </p>
                 </div>
             </div>

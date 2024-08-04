@@ -20,7 +20,7 @@ export default function Socialmediabuttn(){
     <div className='position-relative'>
         <div className="socialMediaBtn-body-style">
             <div className={`${openModal ? 'socialMediaBtn-body-dropdown-style' : 'd-none w-0'} `}>
-                <Link><FaWhatsapp color='green' size={'1.95rem'}/></Link> <Link><FaInstagram color='pink' size={'1.95rem'}/></Link> <Link><FaTelegramPlane color='blue' size={'1.95rem'}/></Link> <Link><img style={{width:'1.95rem'}} src={robikaIcon}/></Link>
+                <Link><FaWhatsapp color='green' size={'1.95rem'}/></Link> <Link><FaInstagram color='pink' size={'1.95rem'}/></Link> <Link><FaTelegramPlane color='blue' size={'1.95rem'}/></Link> 
             </div>
             <div onClick={openModalHandller} className='w-100 h-100 d-flex justify-content-center align-items-center'>
                 <MdSupportAgent size={'2.3rem'}/>

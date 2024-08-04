@@ -36,6 +36,7 @@ export default function FooterSection(){
                     <p><Link to=''>۱- اخذ کد اقتصادی</Link></p>
                     <p><Link to=''>۲- اخذ گواهی ارزش افزوده</Link></p>
                     <p><Link to=''>۳- اخذ دفاتر پلمب مالی</Link></p>
+                    <p><Link to=''>۴- مشاوره مالی و مالیاتی</Link></p>
                 </Col>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p><BsBoxSeamFill />- خدمات بازرگانی</p>
@@ -52,7 +53,6 @@ export default function FooterSection(){
                     <p><Link to=''>۱-واتساپ</Link></p>
                     <p><Link to=''>۲-تلگرام</Link></p>
                     <p><Link to=''>۳-اینستاگرام</Link></p>
-                    <p><Link to=''>۴-روبیکا</Link></p>
                 </Col>
             </div>
             <div>

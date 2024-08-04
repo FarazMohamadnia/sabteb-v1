@@ -15,13 +15,13 @@ export default function ContactUs(){
                 <Col md={6} className='text-center'>
                     <p>راه های ارتباطی</p>
                     <div className='text-start ms-4 d-sm-flex flex-wrap'>
-                        <p className='w-50'><LiaPhoneVolumeSolid />-0912333</p>
-                        <p className='w-50'><LiaPhoneVolumeSolid />-0912333</p>
-                        <p className='w-50'><LiaPhoneVolumeSolid />-0912333</p>
-                        <p className='w-50'><LiaPhoneVolumeSolid />-0912333</p>
-                        <p className='w-50'><CgMail />-sldsd@gmail.com</p>
-                        <p className='w-50'><CgMail />-kskks@gmail.com</p>
-                        <p className='w-100'><MdOutlineShareLocation size={'1.2rem'} />-آدرس : تنسیتسینتسیتنسی</p>
+                        <p className='w-50'><LiaPhoneVolumeSolid />-021-26232806</p>
+                        <p className='w-50'><LiaPhoneVolumeSolid />-021-26231412</p>
+                        <p className='w-50'><LiaPhoneVolumeSolid />-09126711680 </p>
+                        {/* <p className='w-50'><LiaPhoneVolumeSolid />-0912333</p> */}
+                        <p className='w-50'><CgMail />-sabtbe@gmail.com</p>
+                        {/* <p className='w-50'><CgMail />-kskks@gmail.com</p> */}
+                        <p className='w-100'><MdOutlineShareLocation size={'1.2rem'} />-آدرس : خیابان ولیعصر رو به روی پارک ملت خیابان آرامش پلاک 24 ط 2 </p>
                     </div>
                 </Col>
             </div>

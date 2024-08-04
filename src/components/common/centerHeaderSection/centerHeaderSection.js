@@ -18,7 +18,7 @@ export default function CenterHeaderSection(){
                       timing="linear"
                       iteration="1"
                       fillMode="none">
-                       شرکت ثبت ب
+                        ثبت ب
                     </MovingComponent>
                 </h2>
                 <TypeAnimation
@@ -66,7 +66,7 @@ export default function CenterHeaderSection(){
                   timing="ease"
                   iteration="2"
                   fillMode="none">
-                  <Button className='d-block'>همین حالا با ما تماس بگیرید <FaPhoneVolume /></Button>
+                  <a href='tel: 09126711680'><Button className='d-block'>همین حالا با ما تماس بگیرید <FaPhoneVolume /></Button></a>
                 </MovingComponent>
             </Col>
 

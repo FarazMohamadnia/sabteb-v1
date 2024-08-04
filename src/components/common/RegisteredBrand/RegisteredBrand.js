@@ -1,6 +1,6 @@
 import './RegisteredBrand.css'
-import img from '../../../assets/img/icons/linkIcon/DargahMeli.png'
-export default function RegisteredBrand(){
+
+export default function RegisteredBrand({img}){
     return(
         <div className='RegisteredBrand-card-style' style={{backgroundImage : `url(${img})`}}>
         

@@ -67,6 +67,7 @@ export default function LinkSectionComponent(){
                         <Link to=''>۱- اخذ کد اقتصادی</Link>
                         <Link to=''>۲- اخذ گواهی ارزش افزوده</Link>
                         <Link to=''>۳- اخذ دفاتر پلمب مالی</Link>
+                        <Link to=''>۴- مشاور مالی و مالیاتی</Link>
                     </div>
                     <div className={`linkSection-container-style ${SaveId == '4' ? 'd-flex' : 'd-none'}`}> 
                         <Link to=''>۱- اخذ کارت بازرگانی حقیقی</Link>

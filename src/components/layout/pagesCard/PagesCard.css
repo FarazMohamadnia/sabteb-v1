@@ -1,0 +1,41 @@
+.PagesCard-container{
+    width: 90%;
+    margin: auto;
+    min-width: 250px;
+}
+
+.pagesCard-table-style{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    color: blue;
+    padding: 5px;
+}
+
+
+.pages-card-link-section{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.pages-card-link-section-box{
+    min-width: 230px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 15px;
+    box-shadow: 0px 0px 8px 2px rgb(37, 37, 37);
+}
+
+.pages-card-link-section-box a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
