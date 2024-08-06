@@ -9,6 +9,8 @@ import { PiSealQuestionFill } from "react-icons/pi";
 import { FaCheckCircle } from "react-icons/fa";
 
 import { Link } from 'react-router-dom';
+import Socialmediabuttn from '../../common/socialMediaButton/socialmediabutton';
+import ContactButton from '../../common/contactBtn/contactButton';
 
 export default function PagesCard(Data){
     const data = Data.Data
@@ -23,10 +25,10 @@ export default function PagesCard(Data){
             <div className='PagesCard-container text-center'>
                 <h1 className='my-1'>{data.title}</h1>
                 <div className='d-md-flex flex-row-reverse my-2 d-block text-center'>
-                    <Col md={6}>
-                        <img className='w-100 rounded-4 mb-3 shadow' src={img} />
+                    <Col md={6} lg={7} style={{backgroundImage: `url(${img})` }} className='pageCard-image-style'>
+            
                     </Col>
-                    <Col className='p-3' md={6}>
+                    <Col className='p-3 PagesCard-justify-description' md={6} lg={5}>
                         <p>{data.des}</p>
                     </Col>
                 </div>
@@ -122,6 +124,12 @@ export default function PagesCard(Data){
                         ))
                     }
                    </div>
+                </div>
+                <div>
+                    <Socialmediabuttn />
+                </div>
+                <div>
+                    <ContactButton />
                 </div>
             <FooterSection />
         </div>

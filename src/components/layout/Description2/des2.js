@@ -1,12 +1,12 @@
 import Col from 'react-bootstrap/esm/Col'
 import imgIcon from '../../../assets/img/icons/descriptionIcon/undraw_Certificate_re_yadi.png'
 import './des2.css'
-import { FcMoneyTransfer } from "react-icons/fc";
 import { BsStopwatchFill } from "react-icons/bs";
 import { BiSupport } from "react-icons/bi";
 import { FaMoneyBillWave } from "react-icons/fa";
 import { FaMoneyCheck } from "react-icons/fa6";
-import { IoDocumentAttach } from "react-icons/io5";
+import { BiMoneyWithdraw } from "react-icons/bi";
+
 
 import { TypeAnimation } from 'react-type-animation';
 
@@ -40,7 +40,7 @@ export default function DescriptionSection2(){
                 <div className='d-sm-flex flex-wrap justify-content-center'>
                     <Col className='m-2 p-1' sm={6} md={4} lg={4}>
                         <div className='DescriptionSection2-box-style'>
-                            <p><FcMoneyTransfer size={'2rem'}/></p>
+                            <p><BiMoneyWithdraw size={'2rem'}/></p>
                             <p>بازگشت وجه در صورت عدم موفقیت</p>
                             <p>ما ضمانت میکنیم که در صورت نبود منع قانونی به کلیه مفاد قرارداد مون عمل کنیم و در غیر این صورت عین وجه دریافتی رو به شما عودت بدیم </p>
                         </div>
@@ -71,13 +71,6 @@ export default function DescriptionSection2(){
                             <p><FaMoneyCheck size={'2rem'}/></p>
                             <p>پشتیبانی کامل فرآیند ثبت</p>
                             <p>ما ضمانت میکنیم لحظه به لحظه از فرایند ثبتی مورد قرارداد مون گزارش بدیم و شما رو در جریان پروسه کامل قرار بدیم</p>
-                        </div>
-                    </Col>
-                    <Col className='m-2 p-1' sm={6} md={4} lg={4}>
-                        <div className='DescriptionSection2-box-style'>
-                            <p><IoDocumentAttach size={'2rem'}/></p>
-                            <p>قراردادهای حقوقی محکم به نفع مشتری</p>
-                            <p>ما ضمانت میکنیم برخلاف سایر رقبا قرارداد انجام کار کاملا به نفع مشتری باشه و به تمامی تعهدات این قرارداد پایبند باشیم</p>
                         </div>
                     </Col>
                 </div>

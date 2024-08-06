@@ -28,7 +28,7 @@ const data =[
     ,
     {
         title : 'طراحی سایت',
-        text : 'با ثبت ب، می‌توانید با هر بودجه‌ای که دارید، سایت حرفه‌ای و متناسب با نیازهای کسب‌وکارتان طراحی کنید. داشتن سایت برای هر کسب‌وکاری ضروری است، زیرا این ابزار به شما کمک می‌کند تا در فضای آنلاین دیده شوید و مشتریان جدیدی جذب کنید. تیم ما با ارائه طراحی‌های متنوع و منطبق با بودجه شما، راه‌حل‌هایی کاربردی برای حضور موثر آنلاین فراهم می‌کند. برای شروع طراحی سایت و رشد کسب‌وکار خود، همین حالا با ما تماس بگیرید.'
+        text : ''
     }
     ,
 ]
@@ -36,7 +36,7 @@ const data =[
 export default function Body1(){
     return(
         <div className='body1-set-background-Color pb-4'>
-            <h3 className='text-dark text-center p-3'>چرا خدمات ما</h3>
+            <h3 className='text-dark text-center p-3'>خدمات متمایز ب :</h3>
             <div className='d-flex justify-content-center flex-wrap'>
                 {
                     data.map(Data => <Description1Cart {...Data} />)
