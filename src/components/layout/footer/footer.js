@@ -17,37 +17,37 @@ export default function FooterSection(){
             <div className='footerSection-body-style justify-content-between d-flex flex-column flex-wrap flex-sm-row p-3'>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p><FaBusinessTime /> - ثبت شرکت</p>
-                    <p><Link to='/ddd'>۱- ثبت شرکت مسئولیت محدود</Link></p>
-                    <p><Link to=''>۲- ثبت شرکت سهامی خاص</Link></p>
-                    <p><Link to=''>۳-ثبت موسسه غیر تجاری</Link></p>
-                    <p><Link to=''>۴- ثبت شرکت تضامنی</Link></p>
-                    <p><Link to=''>۵- ثبت شرکت تعاونی</Link></p>
-                    <p><Link to=''>۶- ثبت شرکت سهامی عام</Link></p>
-                    <p><Link to=''>۷- ثبت شرکت در مناطق آزاد</Link></p>
-                    <p><Link to=''>۸- ثبت و تنظیم صورتجلسات شرکتها</Link></p>
+                    <p><Link to='/company/ثبت-شرکت-مسئولیت-محدود'>۱- ثبت شرکت مسئولیت محدود</Link></p>
+                    <p><Link to='/company/ثبت-شرکت-سهامی-خاص'>۲- ثبت شرکت سهامی خاص</Link></p>
+                    <p><Link to='/company/ثبت-موسسه-غیر-تجاری'>۳-ثبت موسسه غیر تجاری</Link></p>
+                    <p><Link to='/company/ثبت-شرکت-تضامنی'>۴- ثبت شرکت تضامنی</Link></p>
+                    <p><Link to='/company/ثبت-شرکت-تعاونی'>۵- ثبت شرکت تعاونی</Link></p>
+                    <p><Link to='/company/ثبت-شرکت-سهامی-عام'>۶- ثبت شرکت سهامی عام</Link></p>
+                    <p><Link to='/company/ثبت-شرکت-مناطق-آزاد'>۷- ثبت شرکت در مناطق آزاد</Link></p>
+                    <p><Link to='/company/تنظیم-صورتجلسات-شرکتها'>۸- ثبت و تنظیم صورتجلسات شرکتها</Link></p>
                 </Col>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p> <GrDocumentUser />- مالکیت صنعتی و معنوی</p>
-                    <p><Link to=''>۱- ثبت برند</Link></p>
-                    <p><Link to=''>۲- ثبت طرح صنعتی</Link></p>
-                    <p><Link to=''>۳- ثبت اختراع</Link></p>
+                    <p><Link to='/brand/ثبت-برند'>۱- ثبت برند</Link></p>
+                    <p><Link to='/brand/ثبت-طرح-صنعتی'>۲- ثبت طرح صنعتی</Link></p>
+                    <p><Link to='/brand/ثبت-اختراع'>۳- ثبت اختراع</Link></p>
                 </Col>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p><FaMoneyBillTrendUp />- خدمات مالی</p>
-                    <p><Link to=''>۱- اخذ کد اقتصادی</Link></p>
-                    <p><Link to=''>۲- اخذ گواهی ارزش افزوده</Link></p>
-                    <p><Link to=''>۳- اخذ دفاتر پلمب مالی</Link></p>
-                    <p><Link to=''>۴- مشاوره مالی و مالیاتی</Link></p>
+                    <p><Link to='/financial-services/اخذ-کد-اقتصادی'>۱- اخذ کد اقتصادی</Link></p>
+                    <p><Link to='/financial-services/اخذ-گواهی-ارزش-افزوده'>۲- اخذ گواهی ارزش افزوده</Link></p>
+                    <p><Link to='/financial-services/اخذ-دفاتر-پلمپ-مالی'>۳- اخذ دفاتر پلمب مالی</Link></p>
+                    <p><Link to='/financial-services/مشاوره-مالی-و-مالیاتی'>۴- مشاوره مالی و مالیاتی</Link></p>
                 </Col>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p><BsBoxSeamFill />- خدمات بازرگانی</p>
-                    <p><Link to=''>۱- اخذ کارت بازرگانی حقیقی</Link></p>
-                    <p><Link to=''>۲- اخذ کارت بازرگانی حقوقی</Link></p>
+                    <p><Link to='/commerce/اخذ-کارت-بازرگانی-حقیقی'>۱- اخذ کارت بازرگانی حقیقی</Link></p>
+                    <p><Link to='/commerce/اخذ-کارت-بازرگانی-حقوقی'>۲- اخذ کارت بازرگانی حقوقی</Link></p>
                 </Col>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p><MdStars />- خدمات ویژه</p>
-                    <p><Link to=''>۱-طراحی سایت </Link></p>
-                    <p><Link to=''>۲-طراحی لوگو </Link></p>
+                    <p><Link to='/special-services/طراحی-سایت'>۱-طراحی سایت </Link></p>
+                    <p><Link to='/special-services/طراحی-لوگو'>۲-طراحی لوگو </Link></p>
                 </Col>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p><IoShareSocialSharp />- شبکه ها اجتماعی </p>

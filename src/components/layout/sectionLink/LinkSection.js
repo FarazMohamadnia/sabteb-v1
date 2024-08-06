@@ -16,7 +16,7 @@ export default function LinkSectionComponent(){
     const getId = (e)=>{
         const id= e.target.id
         setSaveId(id);
-        setopenModal(true)
+        setopenModal(true);
     }
     const closeModal = ()=>{
         setopenModal(false)
@@ -49,33 +49,33 @@ export default function LinkSectionComponent(){
                         <IoMdCloseCircle className='linkSection-description-icon' onClick={closeModal}/>
                     </div>
                     <div className={`linkSection-container-style ${SaveId == '1' ? 'd-flex' : 'd-none'}`}>
-                        <Link to='/ddd'>۱- ثبت شرکت مسئولیت محدود</Link>
-                        <Link to=''>۲- ثبت شرکت سهامی خاص</Link>
-                        <Link to=''>۳-ثبت موسسه غیر تجاری</Link>
-                        <Link to=''>۴- ثبت شرکت تضامنی</Link>
-                        <Link to=''>۵- ثبت شرکت تعاونی</Link>
-                        <Link to=''>۶- ثبت شرکت سهامی عام</Link>
-                        <Link to=''>۷- ثبت شرکت در مناطق آزاد</Link>
-                        <Link to=''>۸- ثبت و تنظیم صورتجلسات شرکتها</Link>
+                        <Link to='/company/ثبت-شرکت-مسئولیت-محدود'>۱- ثبت شرکت مسئولیت محدود</Link>
+                        <Link to='/company/ثبت-شرکت-سهامی-خاص'>۲- ثبت شرکت سهامی خاص</Link>
+                        <Link to='/company/ثبت-موسسه-غیر-تجاری'>۳-ثبت موسسه غیر تجاری</Link>
+                        <Link to='/company/ثبت-شرکت-تضامنی'>۴- ثبت شرکت تضامنی</Link>
+                        <Link to='/company/ثبت-شرکت-تعاونی'>۵- ثبت شرکت تعاونی</Link>
+                        <Link to='/company/ثبت-شرکت-سهامی-عام'>۶- ثبت شرکت سهامی عام</Link>
+                        <Link to='/company/ثبت-شرکت-مناطق-آزاد'>۷- ثبت شرکت در مناطق آزاد</Link>
+                        <Link to='/company/تنظیم-صورتجلسات-شرکتها'>۸- ثبت و تنظیم صورتجلسات شرکتها</Link>
                     </div>
                     <div className={`linkSection-container-style ${SaveId == '2' ? 'd-flex' : 'd-none'}`}>
-                        <Link to=''>۱- ثبت برند</Link>
-                        <Link to=''>۲- ثبت طرح صنعتی</Link>
-                        <Link to=''>۳- ثبت اختراع</Link>
+                        <Link to='/brand/ثبت-برند'>۱- ثبت برند</Link>
+                        <Link to='/brand/ثبت-طرح-صنعتی'>۲- ثبت طرح صنعتی</Link>
+                        <Link to='/brand/ثبت-اختراع'>۳- ثبت اختراع</Link>
                     </div>
                     <div className={`linkSection-container-style ${SaveId == '3' ? 'd-flex' : 'd-none'}`}>
-                        <Link to=''>۱- اخذ کد اقتصادی</Link>
-                        <Link to=''>۲- اخذ گواهی ارزش افزوده</Link>
-                        <Link to=''>۳- اخذ دفاتر پلمب مالی</Link>
-                        <Link to=''>۴- مشاور مالی و مالیاتی</Link>
+                        <Link to='/financial-services/اخذ-کد-اقتصادی'>۱- اخذ کد اقتصادی</Link>
+                        <Link to='/financial-services/اخذ-گواهی-ارزش-افزوده'>۲- اخذ گواهی ارزش افزوده</Link>
+                        <Link to='/financial-services/اخذ-دفاتر-پلمپ-مالی'>۳- اخذ دفاتر پلمب مالی</Link>
+                        <Link to='/financial-services/مشاوره-مالی-و-مالیاتی'>۴- مشاور مالی و مالیاتی</Link>
                     </div>
                     <div className={`linkSection-container-style ${SaveId == '4' ? 'd-flex' : 'd-none'}`}> 
-                        <Link to=''>۱- اخذ کارت بازرگانی حقیقی</Link>
-                        <Link to=''>۲- اخذ کارت بازرگانی حقوقی</Link>
+                        <Link to='/commerce/اخذ-کارت-بازرگانی-حقیقی'>۱- اخذ کارت بازرگانی حقیقی</Link>
+                        <Link to='/commerce/اخذ-کارت-بازرگانی-حقوقی'>۲- اخذ کارت بازرگانی حقوقی</Link>
                     </div>
                     <div className={`linkSection-container-style ${SaveId == '5' ? 'd-flex' : 'd-none'}`}>
-                        <Link to=''>۱-طراحی سایت</Link>
-                        <Link to=''>۲-طراحی لوگو </Link>
+                        <Link to='/special-services/طراحی-سایت'>۱-طراحی سایت</Link>
+                        <Link to='/special-services/طراحی-لوگو'>۲-طراحی لوگو </Link>
                     </div>
                 </div>
             </div>
