@@ -66,7 +66,7 @@ export default function CenterHeaderSection(){
                   timing="ease"
                   iteration="2"
                   fillMode="none">
-                  <a href='tel: 09126711680'><Button className='d-block'>همین حالا با ما تماس بگیرید <FaPhoneVolume /></Button></a>
+                  <a href='tel: 02126231412'><Button className='d-block'>همین حالا با ما تماس بگیرید <FaPhoneVolume /></Button></a>
                 </MovingComponent>
             </Col>
 

@@ -9,16 +9,16 @@ export default function FullDescriptionSection(){
     return(
         <div className='fullDescription-body-style'>
             <ul className='fullDescription-link-style'>
-                <li><a href='#section1'>توضیحات ثبت شرکت</a></li>
-                <li><a href='#section2'>توضیحات خدمات مالی</a></li>
-                <li><a href='#section3'>توضیحات خدمات بازرگانی</a></li>
-                <li><a href='#section4'>توضیحات خدمات ویژه</a></li>
-                <li><a href='#section5'>توضیحات خدماتت مالکیتی مادی و معنوی</a></li>
+                <li><a href='#section1'>خدمات تخصصی ثبتی شرکت ها</a></li>
+                <li><a href='#section2'> خدمات تخصصی مالی و مالیاتی</a></li>
+                <li><a href='#section3'> خدمات تخصصی بازرگانی</a></li>
+                <li><a href='#section4'> خدمات ویژه</a></li>
+                <li><a href='#section5'> خدماتت تخصصی مالکیت صنعتی و معنوی</a></li>
             </ul>
             <div className='fullDescription-Des-body-styles'>
                 <div className='fullDescription-Des-body-styles-div'>
                     <img src={companyImg}/>
-                    <h2 id='section1'>توضیحات : ثبت شرکت</h2>
+                    <h2 id='section1'>خدمات تخصصی ثبتی شرکت ها</h2>
                     <p>
                       ثبت شرکت یکی از گام‌های اساسی برای شروع یک کسب‌وکار موفق در ایران است. این فرآیند نه تنها به رسمیت شناخته شدن کسب‌وکار شما کمک می‌کند، بلکه اعتبار قانونی و اقتصادی به آن می‌بخشد. در این مقاله، به بررسی خدمات تخصصی ثبتی و انواع مختلف شرکت‌هایی که می‌توان در ایران ثبت کرد، می‌پردازیم.
                     </p>
@@ -75,7 +75,7 @@ export default function FullDescriptionSection(){
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
                     <img src={financeImg}/>
-                    <h2 id='section2'>توضیحات : خدمات مالی</h2>
+                    <h2 id='section2'>خدمات تخصصی مالی و مالیاتی</h2>
                     <p>
                       امور مالی و مالیاتی نقش حیاتی در مدیریت و بهبود وضعیت مالی و پرداخت مالیات در کسب‌وکارها دارند که شامل اقداماتی نظیر اخذ کد اقتصادی، اخذ گواهی ارزش افزوده، اخذ دفاتر پلمب مالی و به روز بودن اطلاعات مالی و مالیاتی می‌شوند. 
                     </p>
@@ -108,7 +108,7 @@ export default function FullDescriptionSection(){
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
                     <img src={commerceImg}/>
-                    <h2 id='section3'>توضیحات : خدمات بازرگانی</h2>
+                    <h2 id='section3'> خدمات تخصصی بازرگانی</h2>
                     <p>
                       در دنیای تجارت بین‌المللی، داشتن مجوزهای لازم برای انجام فعالیت‌های بازرگانی اهمیت ویژه‌ای دارد. کارت بازرگانی یکی از این مجوزهای ضروری است که به افراد و شرکت‌ها اجازه می‌دهد تا در زمینه واردات و صادرات فعالیت کنند. کارت بازرگانی می‌تواند به دو نوع حقیقی و حقوقی تقسیم شود.
                     </p>
@@ -129,7 +129,7 @@ export default function FullDescriptionSection(){
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
                     <img src={specialImage}/>
-                    <h2 id='section4'>توضیحات : خدمات ویژه</h2>
+                    <h2 id='section4'>خدمات ویژه</h2>
                     <p>
                     در دنیای امروز، ایجاد هویت بصری و آنلاین برای هر کسب‌وکار نوپا امری ضروری و غیرقابل انکار است. برای صاحبین کسب و کار های نوپا طراحی سایت و طراحی لوگو می‌تواند به عنوان یک عامل تعیین‌کننده در موفقیت و جذب مشتریان جدید در فضای مجازی و تبلیغاتی باشد. 
                     </p>
@@ -150,7 +150,7 @@ export default function FullDescriptionSection(){
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
                     <img src={brandImg}/>
-                    <h2 id='section5'>توضیحات : خدمات مالکیتی مادی و معنوی</h2>
+                    <h2 id='section5'> خدمات  تخصصی مالکیت صنعتی و معنوی</h2>
                     <p>
                       مالکیت صنعتی و معنوی از جمله مهم‌ترین ابزارهای حمایت از نوآوری‌ها، خلاقیت‌ها و تلاش‌های فکری افراد و شرکت‌ها هستند. این نوع مالکیت‌ها امکان حفاظت از حقوق خالقان و مبتکران را فراهم می‌آورند و به آن‌ها اجازه می‌دهند تا از دستاوردهای خود بهره‌برداری مالی کنند. خدمات تخصصی مالکیت صنعتی و معنوی شامل ثبت برند، ثبت طرح صنعتی و ثبت اختراع است.
                     </p>
