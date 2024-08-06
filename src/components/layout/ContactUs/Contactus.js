@@ -2,6 +2,7 @@ import Col from 'react-bootstrap/esm/Col'
 import './Contactus.css'
 import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { MdOutlineShareLocation } from "react-icons/md";
+import { FaMobile } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
 
 export default function ContactUs(){
@@ -17,10 +18,8 @@ export default function ContactUs(){
                     <div className='text-start ms-4 d-sm-flex flex-wrap'>
                         <p className='w-50'><LiaPhoneVolumeSolid />-021-26232806</p>
                         <p className='w-50'><LiaPhoneVolumeSolid />-021-26231412</p>
-                        <p className='w-50'><LiaPhoneVolumeSolid />-09126711680 </p>
-                        {/* <p className='w-50'><LiaPhoneVolumeSolid />-0912333</p> */}
+                        <p className='w-50'><FaMobile />-09126711680 </p>
                         <p className='w-50'><CgMail />-sabtbe@gmail.com</p>
-                        {/* <p className='w-50'><CgMail />-kskks@gmail.com</p> */}
                         <p className='w-100'><MdOutlineShareLocation size={'1.2rem'} />-آدرس : خیابان ولیعصر رو به روی پارک ملت خیابان آرامش پلاک 24 ط 2 </p>
                     </div>
                 </Col>

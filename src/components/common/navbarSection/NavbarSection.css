@@ -1,7 +1,7 @@
 .nav-section-body{
     width: 100%;
     background: linear-gradient(to top right ,gray, #710b047f , rgb(226, 225, 225) );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
@@ -9,6 +9,7 @@
     background: -webkit-linear-gradient( right ,rgb(0, 35, 176),#002e32, #430000 ,rgb(175, 0, 0) );
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 25px;
 }
 
 .nav-img-section-style{
