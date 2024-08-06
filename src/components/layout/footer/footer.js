@@ -51,9 +51,9 @@ export default function FooterSection(){
                 </Col>
                 <Col sm={6} md={4} lg={2} className='p-3'>
                     <p><IoShareSocialSharp />- شبکه ها اجتماعی </p>
-                    <p><Link to=''>۱-واتساپ</Link></p>
-                    <p><Link to=''>۲-تلگرام</Link></p>
-                    <p><Link to=''>۳-اینستاگرام</Link></p>
+                    <p><Link to='https://wa.me/989127611680'>۱-واتساپ</Link></p>
+                    <p><Link to='https://t.me/sabtbe'>۲-تلگرام</Link></p>
+                    <p><Link to='https://www.instagram.com/sabte_b'>۳-اینستاگرام</Link></p>
                 </Col>
             </div>
             <div className='d-flex pb-5 footer-icons-section-style'>

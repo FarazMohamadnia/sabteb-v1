@@ -11,6 +11,7 @@ import FooterSection from '../components/layout/footer/footer'
 import TopContactUs from '../components/layout/topContactUs/topcontactus'
 import ContactButton from '../components/common/contactBtn/contactButton'
 import RegisteredBrandAndCountingSection from '../components/layout/RegisteredBrandAndCountingSection/RegisteredBrandAndCountingSection'
+import GradientLable from '../components/common/linearGradientLable/LinearGradientLable'
 
 export default function HomePage(){
     return(
@@ -32,6 +33,9 @@ export default function HomePage(){
             </div>
             <div>
                 <Socialmediabuttn />
+            </div>
+            <div>
+                <GradientLable />
             </div>
             <div>
                 <DescriptionSection2 />
