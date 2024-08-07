@@ -14,11 +14,6 @@ import ContactButton from '../../common/contactBtn/contactButton';
 
 export default function PagesCard(Data){
     const data = Data.Data
-    let maxPrice = 0
-    data.tableform.forEach(data => {
-        maxPrice += data.price
-    })
-    console.log(data)
     return(
         <div className='font-lalehar'>
             <Navbar />
@@ -72,8 +67,6 @@ export default function PagesCard(Data){
                                 ))
                             }
                             <tr>
-                              <td>قیمت کل</td>
-                              <td>{maxPrice} ریال</td>
                             </tr>
                           </tbody>
                         </Table>

@@ -21,10 +21,22 @@ import SpecialPage1 from './pages/specialPages/specialPage1/specialPage';
 import SpecialPage2 from './pages/specialPages/specialPage2/specialPage';
 import CommercePage1 from './pages/commercePages/commercePage1/commercePage';
 import CommercePage2 from './pages/commercePages/commercePage2/commercePage';
-
+import {Helmet} from "react-helmet";
+import icon from './assets/img/icons/logoIcon/logo.jpg'
 function App() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <link rel="icon" href={icon} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="description"
+          content="ارائه دهنده کلیه خدمات مورد نیاز شرکتها در حوزه ثبت شرکت ، ثبت برند ، اخذ کارت بازرگانی ، مشاوره حقوقی و مشاوره مالی و مالیاتی با به کار گیری کادری مجرب و متخصص در کوتاه ترین زمان وبا کمترین هزینه"
+        />
+        <link rel="apple-touch-icon" href={icon} />
+        <title>ثبت ب</title>
+      </Helmet>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomePage />}/>

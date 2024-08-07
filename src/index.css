@@ -73,3 +73,10 @@ code {
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Doran';
+  src: url('./assets/fonts/Doran/Doran-Light.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
