@@ -1,5 +1,6 @@
 import Description1Cart from '../../common/description1Cart/description1cart';
 import './body1section.css';
+
 const data =[
     {
         title : 'ثبت شرکت',

@@ -17,14 +17,18 @@ export default function DescriptionSection2(){
             <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed once, initially
-                  'ارائه دهنده انواع خدمات شرکتی با بهترین قیمت',
+                  'ثبت ب ارائه دهنده خدمات متمایز ثبتی با قیمت های رقابتی',
                   1500,
-                  'ارائه دهنده انواع خدمات شرکتی در کمترین زمان',
+                  'ثبت ب ارائه دهنده خدمات متمایز ثبتی با بازگشت وجه در صورت عدم موفقیت',
                   1500,
-                  'ارائه دهنده انواع خدمات شرکتی با تیمی مجرب ',
+                  'ثبت ب ارائه دهنده خدمات متمایز ثبتی با زمان بندی دقیق و تضمین زمانی',
                   1500,
-                  'ارائه دهنده انواع خدمات شرکتی با ضمانت اجرایی کامل',
+                  'ثبت ب ارائه دهنده خدمات متمایز ثبتی با پشتیبانی حقوقی و مشاوره رایگان',
                   1500,
+                  'ثبت ب ارائه دهنده خدمات متمایز ثبتی با شفافیت هزینه ها',
+                  1500,
+                  'ثبت ب ارائه دهنده خدمات متمایز ثبتی با پشتیبانی کامل فرایند ثبت',
+                  1500
                 ]}
                 speed={50}
                 repeat={Infinity}
@@ -32,41 +36,41 @@ export default function DescriptionSection2(){
             />
         </div>
         <div className='d-lg-flex align-items-center'>
-            <Col className='DescriptionSection2-section1-style' lg={3}>
+            <Col data-aos="fade-left" className='DescriptionSection2-section1-style' lg={3}>
                 <h3>تضمین کار ما </h3>
                 <img src={imgIcon} />
             </Col>
             <Col lg={9}>
                 <div className='d-sm-flex flex-wrap justify-content-center'>
-                    <Col className='m-2 p-1' sm={6} md={4} lg={4}>
+                    <Col data-aos="zoom-in" className='m-2 p-1' sm={6} md={4} lg={4}>
                         <div className='DescriptionSection2-box-style'>
                             <p><BiMoneyWithdraw size={'2rem'}/></p>
                             <p>بازگشت وجه در صورت عدم موفقیت</p>
                             <p>ما ضمانت میکنیم که در صورت نبود منع قانونی به کلیه مفاد قرارداد مون عمل کنیم و در غیر این صورت عین وجه دریافتی رو به شما عودت بدیم </p>
                         </div>
                     </Col>
-                    <Col className='m-2 p-1' sm={6} md={4} lg={4}>
+                    <Col data-aos="zoom-in" className='m-2 p-1' sm={6} md={4} lg={4}>
                         <div className='DescriptionSection2-box-style'>
                             <p><BsStopwatchFill size={'2rem'}/></p>
                             <p>زمان‌بندی دقیق و تضمین زمان</p>
                             <p>ما ضمانت میکنیم در زمان مقرر کلیه تعهدات خودمون در قرارداد را انجام بدیم و کارو به شما تحویل بدیم </p>
                         </div>
                     </Col>
-                    <Col className='m-2 p-1' sm={6} md={4} lg={4}>
+                    <Col data-aos="zoom-in" className='m-2 p-1' sm={6} md={4} lg={4}>
                         <div className='DescriptionSection2-box-style'>
                             <p><BiSupport size={'2rem'}/></p>
                             <p>پشتیبانی حقوقی و مشاوره رایگان</p>
                             <p>ما ضمانت میکنیم پس از اتمام قرارداد به صورت یک یار و مشاور در کنار شما باشیم و به سوالات حقوقی شما درخصوص شرکت تون پاسخ بدیم </p>
                         </div>
                     </Col>
-                    <Col className='m-2 p-1' sm={6} md={4} lg={4}>
+                    <Col data-aos="zoom-in" className='m-2 p-1' sm={6} md={4} lg={4}>
                         <div className='DescriptionSection2-box-style'>
                             <p><FaMoneyBillWave size={'2rem'}/></p>
                             <p> شفافیت هزینه‌ها</p>
                             <p>ما ضمانت میکنیم که کمترین هزینه ممکن رو به صورت شفاف از شما دریافت کنیم و هیچ مبلغی اضافه بر مبلغ توافق شده در قرارداد از شما دریافت نکنیم</p>
                         </div>
                     </Col>
-                    <Col className='m-2 p-1' sm={6} md={4} lg={4}>
+                    <Col data-aos="zoom-in" className='m-2 p-1' sm={6} md={4} lg={4}>
                         <div className='DescriptionSection2-box-style'>
                             <p><FaMoneyCheck size={'2rem'}/></p>
                             <p>پشتیبانی کامل فرآیند ثبت</p>

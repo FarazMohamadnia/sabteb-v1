@@ -27,19 +27,19 @@ export default function LinkSectionComponent(){
             <div className='linksection-body-style'>
                 <h3 className='text-light'>خدمات ما</h3>
                 <div className='d-flex flex-wrap justify-content-center'>
-                    <div onClick={getId} id={1} className='linkSection-box'>
+                    <div data-aos="zoom-in" onClick={getId} id={1} className='linkSection-box'>
                         <p id={1}>ثبت شرکت <FaBusinessTime id={1} /></p>
                     </div>
-                    <div onClick={getId} id={2} className='linkSection-box'>
+                    <div data-aos="zoom-in" onClick={getId} id={2} className='linkSection-box'>
                         <p id={2}>خدمات مالکیتی <GrDocumentUser id={2}/></p>
                     </div>
-                    <div onClick={getId} id={3} className='linkSection-box'>
+                    <div data-aos="zoom-in" onClick={getId} id={3} className='linkSection-box'>
                         <p id={3}>خدمات مالی <FaMoneyBillTrendUp id={3}/></p>
                     </div>
-                    <div onClick={getId} id={4} className='linkSection-box'>
+                    <div data-aos="zoom-in" onClick={getId} id={4} className='linkSection-box'>
                         <p id={4}>خدمات بازرگانی <BsBoxSeamFill id={4}/></p>
                     </div>
-                    <div onClick={getId} id={5} className='linkSection-box'>
+                    <div data-aos="zoom-in" onClick={getId} id={5} className='linkSection-box'>
                         <p id={5}>خدمات ویژه <MdStars id={5}/></p>
                     </div>
                 </div>

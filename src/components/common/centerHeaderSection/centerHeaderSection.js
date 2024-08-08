@@ -21,7 +21,15 @@ export default function CenterHeaderSection(){
                         ثبت ب
                     </MovingComponent>
                 </h2>
-                <TypeAnimation
+                <MovingComponent
+                  type="shadow"
+                  duration="1500ms"
+                  delay="0s"
+                  direction="normal"
+                  timing="linear"
+                  iteration="5"
+                  fillMode="forwards">
+                  <TypeAnimation
                     sequence={[
                       // Same substring at the start will only be typed once, initially
                       'ارائه دهنده انواع خدمات شرکتی با بهترین قیمت',
@@ -37,7 +45,8 @@ export default function CenterHeaderSection(){
                     repeat={Infinity}
                     className=''
                 />
-                <p className='mt-2'>
+                </MovingComponent>
+                <p data-aos="fade-left" className='mt-2'>
                 ثبت ب ، برای شروع کسب و کار 
                 <br/>
                 امروزه ثبت شرکت و برند ، یکی از اصلی‌ترین عوامل در راستای ارتقاء کسب و کار  و حفظ حقوق مادی و معنوی در بین مدیران موفق است.

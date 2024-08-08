@@ -23,6 +23,11 @@ import CommercePage1 from './pages/commercePages/commercePage1/commercePage';
 import CommercePage2 from './pages/commercePages/commercePage2/commercePage';
 import {Helmet} from "react-helmet";
 import icon from './assets/img/icons/logoIcon/logo.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init({
+  delay: "1s"
+});
 function App() {
   return (
     <>
