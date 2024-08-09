@@ -20,11 +20,11 @@ export default function PagesCard(Data){
             <div className='PagesCard-container text-center'>
                 <h1 className='my-1'>{data.title}</h1>
                 <div className='d-md-flex flex-row-reverse my-2 d-block text-center'>
-                    <Col md={6} lg={7} style={{backgroundImage: `url(${img})` }} className='pageCard-image-style'>
+                    <Col md={6} lg={7} style={{backgroundImage: `url(${data.img})` }} className='pageCard-image-style'>
             
                     </Col>
                     <Col className='p-3 PagesCard-justify-description' md={6} lg={5}>
-                        <p>{data.des}</p>
+                        <p className=''>{data.des}</p>
                     </Col>
                 </div>
                 <div className='text-start'>
@@ -48,7 +48,7 @@ export default function PagesCard(Data){
                         ))}
                     </Col>
                     <Col md={7} lg={8}>
-                    <h2 className='pagesCard-table-style m-0 p-0'>هزینه ثبت شرکت ۱۴۰۳</h2>
+                    <h2 className='pagesCard-table-style m-0 p-0'>{data.tableName}</h2>
                     <div>
                         <Table striped bordered hover>
                           <thead>
@@ -62,7 +62,7 @@ export default function PagesCard(Data){
                                 data.tableform.map(data => (
                                     <tr>
                                         <td>{data.name}</td>
-                                        <td>{data.price} ریال</td>
+                                        <td>{data.price}{data.price === 'رایگان' ||'تماس بگیرید' ? '' : 'ریال'}</td>
                                     </tr>
                                 ))
                             }

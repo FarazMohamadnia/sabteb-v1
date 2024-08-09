@@ -5,18 +5,14 @@
 }
 
 .pageCard-image-style{
-    box-shadow: 0px 0px 10px 5px black;
     border-radius: 15px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 70%;
-    @media (max-width :767px) {
-        height: 30rem;
-        background-size: 100%;
-    };
+    background-size: contain;
+    min-height: 20rem;
     @media (min-width :990px) {
-        min-height: 15rem;
-        background-size: 60%;
+        min-height: 22rem;
+        background-size: contain;
     }
 }
 
