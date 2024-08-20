@@ -23,7 +23,7 @@
 
 .socialMediaBtn-body-dropdown-style{
     position:absolute;
-    width: 50vw;
+    width: 70vw;
     max-width: 500px;
     left: -12.5px;
     top: 1px;
@@ -39,7 +39,10 @@
     transition: 2s;
     padding-left:90px;
     padding-right:25px ;
-    @media (max-width : 650px) {
+}
+
+@media (max-width : 650px) {
+    .socialMediaBtn-body-dropdown-style{
         width: 93.5vw;
     }
 }

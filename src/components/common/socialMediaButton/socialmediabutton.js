@@ -1,11 +1,9 @@
 import { useState } from 'react';
 import './socialmediabutton.css'
-import { SiPluscodes } from "react-icons/si";
 import { FaWhatsapp, FaInstagram ,FaTelegramPlane } from "react-icons/fa";
 import { MdSupportAgent } from "react-icons/md";
-
-import robikaIcon from '../../../assets/img/icons/robikaIcon/logo-Rubika-app-download-png-vector-Toranjlogo (2).png'
 import {Link} from 'react-router-dom'
+
 export default function Socialmediabuttn(){
     const [openModal , setopenModal] =useState(false);
     const openModalHandller = (e)=>{

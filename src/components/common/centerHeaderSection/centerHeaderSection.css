@@ -22,11 +22,6 @@
     border: 1px solid black;
     box-shadow: 0px 0px 10px 3px black;
     margin-bottom: 15px;
-    @media (min-width : 767px) {
-        width: 230px;
-        margin: 20px;
-        border-radius: 50%;
-    }
 }
 
 .header-body-section-for-centerHeader-section button{
@@ -35,21 +30,34 @@
     border: 1px solid rgb(66, 0, 0);
     width: 215px;
     margin-bottom: 10px;
-    @media (min-width : 767px) {
-        margin: auto;
-    }
 }
 
 .header-body-section-for-centerHeader-section p{
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
     width: 100%;
     margin: auto;
     padding: 7px;
     text-align: right;
-    @media (max-width : 767px) {
-        background-color: rgba(0, 0, 0, 0.75);
-        color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px black;
+    text-align: justify;
+}
+
+@media (min-width : 767px) {
+    .header-body-section-for-centerHeader-section img{
+        width: 230px;
+        margin: 20px;
+        border-radius: 50%;
+    }
+
+    .header-body-section-for-centerHeader-section button{
+        margin: auto;
+    }
+}
+
+@media (max-width : 767px) {
+    .header-body-section-for-centerHeader-section p{
         padding: 13px;
-        border-radius: 15px;
-        box-shadow: 0px 0px 10px 3px black;
     }
 }

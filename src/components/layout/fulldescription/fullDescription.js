@@ -17,7 +17,7 @@ export default function FullDescriptionSection(){
             </ul>
             <div className='fullDescription-Des-body-styles'>
                 <div className='fullDescription-Des-body-styles-div'>
-                    <img data-aos="flip-left" src={companyImg}/>
+                    <img data-aos="zoom-in" src={companyImg}/>
                     <h2 data-aos="fade-left" id='section1'>خدمات تخصصی ثبتی شرکت ها</h2>
                     <p data-aos="fade-left">
                       ثبت شرکت یکی از گام‌های اساسی برای شروع یک کسب‌وکار موفق در ایران است. این فرآیند نه تنها به رسمیت شناخته شدن کسب‌وکار شما کمک می‌کند، بلکه اعتبار قانونی و اقتصادی به آن می‌بخشد. در این مقاله، به بررسی خدمات تخصصی ثبتی و انواع مختلف شرکت‌هایی که می‌توان در ایران ثبت کرد، می‌پردازیم.
@@ -74,7 +74,7 @@ export default function FullDescriptionSection(){
                     </Accordion>
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
-                    <img data-aos="flip-left" src={financeImg}/>
+                    <img data-aos="zoom-in" src={financeImg}/>
                     <h2 data-aos="fade-left" id='section2'>خدمات تخصصی مالی و مالیاتی</h2>
                     <p data-aos="fade-left">
                       امور مالی و مالیاتی نقش حیاتی در مدیریت و بهبود وضعیت مالی و پرداخت مالیات در کسب‌وکارها دارند که شامل اقداماتی نظیر اخذ کد اقتصادی، اخذ گواهی ارزش افزوده، اخذ دفاتر پلمب مالی و به روز بودن اطلاعات مالی و مالیاتی می‌شوند. 
@@ -107,7 +107,7 @@ export default function FullDescriptionSection(){
                     </Accordion>
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
-                    <img data-aos="flip-left" src={commerceImg}/>
+                    <img data-aos="zoom-in" src={commerceImg}/>
                     <h2 data-aos="fade-left" id='section3'> خدمات تخصصی بازرگانی</h2>
                     <p data-aos="fade-left">
                       در دنیای تجارت بین‌المللی، داشتن مجوزهای لازم برای انجام فعالیت‌های بازرگانی اهمیت ویژه‌ای دارد. کارت بازرگانی یکی از این مجوزهای ضروری است که به افراد و شرکت‌ها اجازه می‌دهد تا در زمینه واردات و صادرات فعالیت کنند. کارت بازرگانی می‌تواند به دو نوع حقیقی و حقوقی تقسیم شود.
@@ -128,7 +128,7 @@ export default function FullDescriptionSection(){
                     </Accordion>
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
-                    <img data-aos="flip-left" src={specialImage}/>
+                    <img data-aos="zoom-in" src={specialImage}/>
                     <h2 data-aos="fade-left" id='section4'>خدمات ویژه</h2>
                     <p data-aos="fade-left">
                     در دنیای امروز، ایجاد هویت بصری و آنلاین برای هر کسب‌وکار نوپا امری ضروری و غیرقابل انکار است. برای صاحبین کسب و کار های نوپا طراحی سایت و طراحی لوگو می‌تواند به عنوان یک عامل تعیین‌کننده در موفقیت و جذب مشتریان جدید در فضای مجازی و تبلیغاتی باشد. 
@@ -149,7 +149,7 @@ export default function FullDescriptionSection(){
                     </Accordion>
                 </div>
                 <div className='fullDescription-Des-body-styles-div'>
-                    <img data-aos="flip-left" src={brandImg}/>
+                    <img data-aos="zoom-in" src={brandImg}/>
                     <h2 data-aos="fade-left" id='section5'> خدمات  تخصصی مالکیت صنعتی و معنوی</h2>
                     <p data-aos="fade-left">
                       مالکیت صنعتی و معنوی از جمله مهم‌ترین ابزارهای حمایت از نوآوری‌ها، خلاقیت‌ها و تلاش‌های فکری افراد و شرکت‌ها هستند. این نوع مالکیت‌ها امکان حفاظت از حقوق خالقان و مبتکران را فراهم می‌آورند و به آن‌ها اجازه می‌دهند تا از دستاوردهای خود بهره‌برداری مالی کنند. خدمات تخصصی مالکیت صنعتی و معنوی شامل ثبت برند، ثبت طرح صنعتی و ثبت اختراع است.

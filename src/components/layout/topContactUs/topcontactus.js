@@ -8,8 +8,8 @@ import img4 from '../../../assets/img/icons/linkIcon/GHazaeie2.png'
 import img5 from '../../../assets/img/icons/linkIcon/Intamedia_Logo.png'
 import img6 from '../../../assets/img/icons/linkIcon/Otaghbazargani.png'
 import img7 from '../../../assets/img/icons/linkIcon/Samt.png'
-import img8 from '../../../assets/img/icons/linkIcon/آرم_قوه_قضائیه_جمهوری_اسلامی_ایران.png'
-import img9 from '../../../assets/img/icons/linkIcon/آرم_قوه_قضائیه_جمهوری_اسلامی_ایران_1.png'
+import img8 from '../../../assets/img/icons/linkIcon/roznamerasmi.png'
+import img9 from '../../../assets/img/icons/linkIcon/asnadOamlak.png'
 
 const data =[
     {

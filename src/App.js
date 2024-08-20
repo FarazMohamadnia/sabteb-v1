@@ -22,7 +22,7 @@ import SpecialPage2 from './pages/specialPages/specialPage2/specialPage';
 import CommercePage1 from './pages/commercePages/commercePage1/commercePage';
 import CommercePage2 from './pages/commercePages/commercePage2/commercePage';
 import {Helmet} from "react-helmet";
-import icon from './assets/img/icons/logoIcon/logo.jpg'
+import icon from './assets/img/icons/logoIcon/favIcon.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init({

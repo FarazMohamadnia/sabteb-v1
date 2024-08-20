@@ -3,7 +3,6 @@ import FooterSection from '../footer/footer'
 import Navbar from '../navbar/navbar'
 import './PagesCard.css'
 import Table from 'react-bootstrap/Table';
-import img from '../../../assets/img/icons/logoIcon/logo.jpg';
 import Accordion from 'react-bootstrap/Accordion';
 import { PiSealQuestionFill } from "react-icons/pi";
 import { FaCheckCircle } from "react-icons/fa";
@@ -11,8 +10,13 @@ import { FaCheckCircle } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import Socialmediabuttn from '../../common/socialMediaButton/socialmediabutton';
 import ContactButton from '../../common/contactBtn/contactButton';
+import { scrolltopHandller } from '../../../data/Data';
+import { useEffect } from 'react';
 
 export default function PagesCard(Data){
+    useEffect(()=>{
+        scrolltopHandller()
+    },[])
     const data = Data.Data
     return(
         <div className='font-lalehar'>
@@ -62,7 +66,7 @@ export default function PagesCard(Data){
                                 data.tableform.map(data => (
                                     <tr>
                                         <td>{data.name}</td>
-                                        <td>{data.price}{data.price === 'رایگان' ||'تماس بگیرید' ? '' : 'ریال'}</td>
+                                        <td>{data.price}{data.price.includes('تماس بگیرید') || data.price.includes('رایگان') ? '' : 'ریال'}</td>
                                     </tr>
                                 ))
                             }

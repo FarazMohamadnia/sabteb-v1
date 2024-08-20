@@ -12,8 +12,13 @@ import TopContactUs from '../components/layout/topContactUs/topcontactus'
 import ContactButton from '../components/common/contactBtn/contactButton'
 import RegisteredBrandAndCountingSection from '../components/layout/RegisteredBrandAndCountingSection/RegisteredBrandAndCountingSection'
 import GradientLable from '../components/common/linearGradientLable/LinearGradientLable'
+import { useEffect } from 'react'
+import { scrolltopHandller } from '../data/Data'
 
 export default function HomePage(){
+    useEffect(()=>{
+        scrolltopHandller()
+    },[])
     return(
         <div className='font-lalehar'>
             <div>
@@ -39,6 +44,9 @@ export default function HomePage(){
             </div>
             <div>
                 <DescriptionSection2 />
+            </div>
+            <div>
+                <GradientLable />
             </div>
             <div>
                 <RegisteredBrandAndCountingSection />

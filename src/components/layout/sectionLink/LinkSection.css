@@ -25,28 +25,12 @@
     flex-direction: column;
     justify-content: center;
     transition: 0.5s;
-    @media (min-width : 300px) {
-        width: 120px;
-        height: 120px;
-        margin: 8px;
-    }
-    @media (min-width : 767px) {
-        width:200px;
-        height: 200px;
-        margin: 12px;
-    }
 }
 
 .linkSection-box p{
     margin: 0px;
     font-size: 11px;
     color: white;
-    @media (min-width : 300px) {
-        font-size: 14px;
-    }
-    @media (min-width : 767px) {
-        font-size: 20px;
-    }
 }
 
 .linkSection-box:hover{
@@ -98,3 +82,38 @@
         width: 23%;
     }
 }
+
+@media (min-width : 300px) {
+    .linkSection-box{
+        width: 120px;
+        height: 120px;
+        margin: 8px;
+    }
+
+    .linkSection-box p{
+        font-size: 14px;
+    }
+}
+
+@media (min-width : 767px) {
+    .linkSection-box{
+        width:200px;
+        height: 200px;
+        margin: 12px;
+    }
+
+    .linkSection-box p{
+        font-size: 20px;
+    }
+
+    .linkSection-container-style a{
+        width: 45%;
+    }
+}
+
+@media (min-width:900px) {
+    .linkSection-container-style a{
+        width: 23%;
+    }
+}
+

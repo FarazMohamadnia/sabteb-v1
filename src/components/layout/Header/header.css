@@ -2,15 +2,18 @@
 	background: linear-gradient(-45deg, white, #c5c6d0,#373737, #7a1712 ,#710c04 , red);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 40rem;
+	height: 42rem;
     display: flex;
 	color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
-    @media (max-width : 500px) {
-        height: 100%;
-        padding: 10px;
-    }
+}
+
+@media (max-width : 500px) {
+	.header-body-section-background{
+		height: 100%;
+		padding: 10px;
+	}
 }
 
 @keyframes gradient {
