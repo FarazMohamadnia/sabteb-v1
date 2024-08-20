@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+### ثبت ب
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ <a href="https://sabteb.com" target="_blank"><button>وبسایت ثبت ب</button></a>
 
-## Available Scripts
 
-In the project directory, you can run:
+## درباره ما
 
-### `npm start`
+شرکت ثبت ب با هدف ارائه خدمات جامع در زمینه‌های **ثبت شرکت**، **ثبت کارت بازرگانی**، **ثبت برند** و **طراحی وبسایت** تاسیس شده است. ما با تیمی متخصص و باتجربه، خدماتی با کیفیت و حرفه‌ای به مشتریان خود ارائه می‌دهیم تا بتوانند با آرامش و اطمینان کامل به فعالیت‌های تجاری خود بپردازند.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## خدمات ما
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ثبت شرکت
+- **ثبت شرکت‌های با مسئولیت محدود و سهامی خاص**
+- **تغییرات در اساسنامه و شرکت‌نامه**
+- **اخذ مجوزهای لازم برای شروع فعالیت**
 
-### `npm test`
+### ثبت کارت بازرگانی
+- **ثبت کارت بازرگانی حقیقی و حقوقی**
+- **صدور و تمدید کارت بازرگانی**
+- **مشاوره در زمینه واردات و صادرات**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ثبت برند
+- **ثبت برند و علامت تجاری**
+- **تکمیل مدارک و پیگیری‌های لازم**
+- **مشاوره در زمینه حفاظت از برند**
 
-### `npm run build`
+### طراحی وبسایت
+- **طراحی و توسعه وبسایت‌های شخصی و شرکتی**
+- **بهینه‌سازی وبسایت برای موتورهای جستجو (SEO)**
+- **پشتیبانی و نگهداری سایت**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## چرا ما؟
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **تجربه و تخصص**: تیم ما از متخصصین با تجربه و حرفه‌ای تشکیل شده است.
+- **خدمات سریع و دقیق**: ما در کوتاه‌ترین زمان ممکن و با دقت بالا خدمات مورد نظر شما را ارائه می‌دهیم.
+- **پشتیبانی مشتری**: ما همیشه در کنار شما هستیم تا به سوالات و نیازهای شما پاسخ دهیم.
